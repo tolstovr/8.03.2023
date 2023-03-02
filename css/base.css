@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+* {box-sizing: border-box}
+html {scroll-behavior: smooth}
+
+body {
+    background-color: #f5f7f5;
+    color: #0f0f0f;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a.a {
+    color: #1e79c9;
+    text-decoration: underline dotted currentColor;
+}
+
+a.a:hover {
+    color: #165d9a;
+}
+
+.hres {display: inherit}
+.lres {display: none !important}
+
+/* navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 55px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    background-color: pink;
+    color: #0f0f0f;
+    box-shadow: 0 0 5px black;
+    user-select: none;
+}
+
+.navbar .nav-brand {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.navbar .nav-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar .nav-link {
+    transition: 250ms;
+
+    margin: 0 .25rem;
+    padding: .25rem .75rem;
+
+    font-size: large;
+
+    border-radius: 50px;
+    background-color: transparent;
+    will-change: auto;
+}
+
+.navbar .nav-link.social-link {
+    display: flex;
+    padding: 0;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    transition: none;
+    background-color: #e398a4;
+}
+
+.navbar .nav-link:active {
+    transition: 250ms;
+    background-color: rosybrown;
+}
+
+.navbar .nav-link:not(:active) {
+    transition: 250ms;
+}
+
+.navbar .nav-link.social-link img {
+    height: 35px;
+    border-radius: 50px;
+}
+
+#nav_toggle {
+    font-size: x-large;
+    padding: .25rem .5rem;
+}
+
+.navbar .nav-link:hover > span,
+.navbar .nav-link.active > span {
+    display: inline;
+}
+
+.navbar .nav-link > span {
+    display: none;
+}
+
+/* main */
+main {
+    margin: 0 50px;
+}
+
+.box {
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 15px;
+
+    background-color: pink;
+    color: #0f0f0f;
+    box-shadow: 0 0 5px black;
+
+    font-size: large;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: 55px;
+    bottom: 0;
+    z-index: 99;
+
+    background-color: pink;
+    color: #0f0f0f;
+    box-shadow: 0 0 5px black;
+    user-select: none;
+    font-size: x-large;
+}

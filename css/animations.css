@@ -1,0 +1,23 @@
+.fade-left {
+    position: relative;
+    transition: 500ms;
+    left: -10vw;
+    opacity: 0
+}
+
+.fade-left.shown {
+    left: 0;
+    opacity: 1;
+}
+
+.fade-up {
+    position: relative;
+    transition: 500ms;
+    bottom: -10vh;
+    opacity: 0
+}
+
+.fade-up.shown {
+    bottom: 0;
+    opacity: 1;
+}

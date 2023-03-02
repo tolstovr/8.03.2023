@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.avatar-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.avatar-block > img {
+    border-radius: 15px;
+    margin: 15px;
+    width: 30%;
+    height: auto;
+}
+
+.avatar-block > .caption {
+    width: 60%;
+    font-size: large;
+}
+
+.avatar-block ul.user-info {
+    list-style-type: none;
+    margin-left: -2rem;
+}
+
+.avatar-block ul.user-info li {
+    margin: 1rem 0;
+}
+
+.avatar-block ul.user-info li:nth-child(1):before {
+    content: "Фамилия: ";
+    font-weight: bold;
+}
+
+.avatar-block ul.user-info li:nth-child(2):before {
+    content: "Имя: ";
+    font-weight: bold;
+}
+
+.avatar-block ul.user-info li:nth-child(3):before {
+    content: "Дата рождения: ";
+    font-weight: bold;
+}
+
+.avatar-block ul.user-info li:nth-child(4):before {
+    content: "Кредо по жизни: ";
+    font-weight: bold;
+}
+
+.avatar-block ul.user-info li:nth-child(5):before {
+    content: "Описание от одноклассников: ";
+    font-weight: bold;
+}
+
+.avatar-block ul.user-info li:nth-child(6):before {
+    content: "Личные пожелания на 8 марта: ";
+    font-weight: bold;
+}
