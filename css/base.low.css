@@ -52,3 +52,8 @@ main {
 .navbar .nav-link > span {
     display: inline;
 }
+
+.footer {
+    display: block;
+    font-size: normal;
+}
