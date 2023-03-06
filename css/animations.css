@@ -21,3 +21,17 @@
     bottom: 0;
     opacity: 1;
 }
+
+@keyframes pulse {
+    0% {
+        outline: 0px #eaaaaa;
+    }
+
+    50% {
+        outline: 5px #eaaaaa;
+    }
+
+    50% {
+        outline: 15px #eaaaaa;
+    }
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.avatar-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-block > img {
+    border-radius: 15px;
+    margin: 15px;
+    width: calc(100% - 30px);
+    height: 50vh;
+    object-fit: cover;
+}
+
+.avatar-block > .caption {
+    width: 100%;
+    font-size: large;
+}

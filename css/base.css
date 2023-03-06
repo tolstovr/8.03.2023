@@ -130,6 +130,10 @@ main {
     font-family: 'Segoe UI', sans-serif;
 }
 
+table > img {
+    width: 30%;
+}
+
 /* footer */
 .footer {
     display: flex;

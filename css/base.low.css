@@ -53,13 +53,7 @@ main {
     display: inline;
 }
 
+/* footer */
 .footer {
-    bottom: 0;
-    z-index: 99;
-
-    background-color: pink;
-    color: #0f0f0f;
-    box-shadow: 0 0 5px black;
-    user-select: none;
     font-size: medium;
 }

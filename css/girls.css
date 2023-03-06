@@ -11,7 +11,8 @@
     border-radius: 15px;
     margin: 15px;
     width: 30%;
-    height: auto;
+    height: 312px;
+    object-fit: cover;
 }
 
 .avatar-block > .caption {
@@ -33,7 +34,7 @@
     font-weight: bold;
 }
 
-.avatar-block ul.user-info li:nth-child(2):before {
+.avatar-block ul.user-info li:nth-child(2):before { 
     content: "Имя: ";
     font-weight: bold;
 }
@@ -44,16 +45,11 @@
 }
 
 .avatar-block ul.user-info li:nth-child(4):before {
-    content: "Кредо по жизни: ";
-    font-weight: bold;
-}
-
-.avatar-block ul.user-info li:nth-child(5):before {
     content: "Описание от одноклассников: ";
     font-weight: bold;
 }
 
-.avatar-block ul.user-info li:nth-child(6):before {
+.avatar-block ul.user-info li:nth-child(5):before {
     content: "Личные пожелания на 8 марта: ";
     font-weight: bold;
 }

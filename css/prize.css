@@ -1,0 +1,19 @@
+* {
+    line-height: 1;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 1.8188vw;
+    font-family: monospace;
+}
+
+body {
+    background-color: hsl(240deg, 10%, 90%);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p {
+    display: inline-block;
+    color: hsl(240deg, 10%, 10%);
+}

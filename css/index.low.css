@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.girl_post {
+    width: calc(100%);
+}
+
+.girls {
+    flex-direction: column;
+}
